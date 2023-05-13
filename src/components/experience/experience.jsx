@@ -1,5 +1,6 @@
 import { Canvas } from "@react-three/fiber"
 import { OrbitControls } from "@react-three/drei"
+import Formula from "../formula/formula"
 
 export default function Experience() {
 	return (
@@ -24,10 +25,11 @@ export default function Experience() {
 				autoRotate={true}
 				autoRotateSpeed={-0.4}
 			/>
-			<mesh>
+			{/* <mesh>
 				<boxGeometry />
 				<meshBasicMaterial color={"red"} />
-			</mesh>
+			</mesh> */}
+			<Formula />
 		</Canvas>
 	)
 }
