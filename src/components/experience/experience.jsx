@@ -22,13 +22,15 @@ export default function Experience() {
 				rotateSpeed={0.3}
 				maxDistance={8.0}
 				minDistance={3.8}
-				autoRotate={true}
-				autoRotateSpeed={-0.4}
 			/>
-			{/* <mesh>
-				<boxGeometry />
-				<meshBasicMaterial color={"red"} />
-			</mesh> */}
+			<directionalLight
+				castShadow
+				position={[3, 0, 0.5]}
+				intensity={1.5}
+				shadow-normalBias={0.09}
+				color={"#e8dfdd"}
+			/>
+			{/* <ambientLight intensity={0.2} /> */}
 			<Formula />
 		</Canvas>
 	)
