@@ -1,0 +1,11 @@
+Model Information:
+* title:	F1 2022 Generic V3 (reuploaded from TheoDevF1)
+* source:	https://sketchfab.com/3d-models/f1-2022-generic-v3-reuploaded-from-theodevf1-55c119e7096a4322bc375c9b4f5a162d
+* author:	Hydra_Junie (https://sketchfab.com/DaniFold)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "F1 2022 Generic V3 (reuploaded from TheoDevF1)" (https://sketchfab.com/3d-models/f1-2022-generic-v3-reuploaded-from-theodevf1-55c119e7096a4322bc375c9b4f5a162d) by Hydra_Junie (https://sketchfab.com/DaniFold) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
