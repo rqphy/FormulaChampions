@@ -5,9 +5,9 @@ export default function Formula() {
 	return (
 		<primitive
 			object={model.scene}
-			scale={0.5}
-			rotation={[0, Math.PI * 2.2, 0]}
-			position={[0, -1.2, 0]}
+			scale={0.8}
+			rotation={[Math.PI * 0.01, Math.PI * 2.1, Math.PI * 0.025]}
+			position={[0, -1, 0]}
 		/>
 	)
 }
