@@ -25,7 +25,7 @@ export default function Experience() {
 			/>
 			<directionalLight
 				castShadow
-				position={[3, 0, 0.5]}
+				position={[-1, 0, 3]}
 				intensity={1.5}
 				shadow-normalBias={0.09}
 				color={"#e8dfdd"}
