@@ -1,19 +1,12 @@
 import { Canvas } from "@react-three/fiber"
 import { OrbitControls } from "@react-three/drei"
 import Formula from "../formula/formula"
+import Camera from "../camera/camera"
 
 export default function Experience() {
 	return (
-		<Canvas
-			shadows
-			camera={{
-				fov: 45,
-				near: 0.1,
-				far: 200,
-				position: [-1, -1, 6],
-			}}
-		>
-			<OrbitControls
+		<Canvas shadows>
+			{/* <OrbitControls
 				enableDamping={true}
 				enablePan={false}
 				minPolarAngle={Math.PI / 2.06}
@@ -22,7 +15,8 @@ export default function Experience() {
 				rotateSpeed={0.3}
 				maxDistance={8.0}
 				minDistance={3.8}
-			/>
+			/> */}
+			<Camera />
 			<directionalLight
 				castShadow
 				position={[-1, 0, 3]}
