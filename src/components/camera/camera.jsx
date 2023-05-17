@@ -10,8 +10,8 @@ export default function Camera() {
 		console.log(camera.position)
 
 		// Adjust the camera's position or rotation based on mouse movement
-		camera.position.x = mouse.x * 5
-		camera.position.y = mouse.y * 5
+		camera.position.x = mouse.x
+		camera.position.y = mouse.y * 0.5
 		camera.lookAt(0, 0, 0)
 	})
 
