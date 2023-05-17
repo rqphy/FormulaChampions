@@ -18,7 +18,7 @@ export default function Formula() {
 			object={model.scene}
 			scale={0.8}
 			rotation={[Math.PI * 0.01, Math.PI * 2.21, Math.PI * 0.025]}
-			position={[-0.4, -1, 0]}
+			position={[0, -1, 0]}
 		/>
 	)
 }

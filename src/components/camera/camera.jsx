@@ -7,7 +7,6 @@ export default function Camera() {
 
 	useFrame(({ mouse }) => {
 		const { current: camera } = cameraRef
-		console.log(camera.position)
 
 		// Adjust the camera's position or rotation based on mouse movement
 		camera.position.x = mouse.x
