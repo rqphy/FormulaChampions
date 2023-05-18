@@ -1,5 +1,6 @@
 .Home {
 	position: relative;
+	font-family: "WildWorld";
 
 	canvas {
 		height: 100vh;
@@ -13,7 +14,6 @@
 		flex-direction: column;
 		align-items: center;
 		transform: translateX(-50%);
-		font-family: sans-serif;
 		font-size: 10vmin;
 		font-weight: bold;
 		text-align: center;
