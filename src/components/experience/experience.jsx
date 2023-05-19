@@ -1,5 +1,5 @@
 import { Canvas } from "@react-three/fiber"
-import { OrbitControls } from "@react-three/drei"
+import { OrbitControls, ScrollControls } from "@react-three/drei"
 import Formula from "../formula/formula"
 import Camera from "../camera/camera"
 
@@ -26,6 +26,11 @@ export default function Experience() {
 			/>
 			{/* <ambientLight intensity={0.2} /> */}
 			<Formula />
+			<ScrollControls
+				distance={2}
+				pages={3}
+				damping={0.2}
+			></ScrollControls>
 		</Canvas>
 	)
 }
