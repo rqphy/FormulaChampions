@@ -1,7 +1,6 @@
 import { Text } from "@react-three/drei"
 
 export default function Champion({ name, index }) {
-	console.log(index)
 	return (
 		<Text
 			position={[-2, index * -0.5 + 2, 0]}
