@@ -1,26 +1,13 @@
 import { useScroll } from "@react-three/drei"
 import Champion from "../champion/champion"
+import data from "../../data/champions.json"
 
 export default function TextContainer() {
-	const data = [
-		"Charles",
-		"Seb",
-		"Pascal",
-		"Lewis",
-		"Charles",
-		"Seb",
-		"Pascal",
-		"Lewis",
-		"Charles",
-		"Seb",
-		"Pascal",
-		"Lewis",
-	]
-
+	console.log(data)
 	return (
 		<group>
-			{data.map((el, index) => (
-				<Champion index={index} name={el} />
+			{[...data].map((el, index) => (
+				<Champion index={index} name={`${el.year} - ${el.champion}`} />
 			))}
 		</group>
 	)
