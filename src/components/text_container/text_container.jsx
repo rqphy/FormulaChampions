@@ -6,7 +6,11 @@ export default function TextContainer() {
 	return (
 		<group>
 			{[...data].map((el, index) => (
-				<Champion index={index} name={`${el.year} - ${el.champion}`} />
+				<Champion
+					key={index}
+					index={index}
+					name={`${el.year} - ${el.champion}`}
+				/>
 			))}
 		</group>
 	)

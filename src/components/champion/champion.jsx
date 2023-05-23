@@ -10,7 +10,6 @@ export default function Champion({ name, index }) {
 			scale={scale}
 			anchorX="left"
 			anchorY="top"
-			key={index}
 		>
 			{name}
 		</Text>
