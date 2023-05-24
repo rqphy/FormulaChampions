@@ -4,7 +4,7 @@ import Title from "../../components/title/title"
 export default function Home() {
 	return (
 		<div className="Home">
-			<Title />
+			{/* <Title /> */}
 			<Experience />
 		</div>
 	)

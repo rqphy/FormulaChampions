@@ -8,7 +8,7 @@ export default function Formula() {
 		// Set wireframe material on all meshes in the model
 		model.scene.traverse((child) => {
 			if (child.isMesh) {
-				child.material.wireframe = true
+				// child.material.wireframe = true
 			}
 		})
 	}, [])
@@ -16,9 +16,10 @@ export default function Formula() {
 	return (
 		<primitive
 			object={model.scene}
-			scale={0.8}
-			rotation={[Math.PI * 0.01, Math.PI * 2.21, Math.PI * 0.025]}
-			position={[0, -1, 0]}
+			scale={0.5}
+			rotation={[Math.PI * 0.5, Math.PI * 2, Math.PI * 0]}
+			// rotation={[Math.PI * 0.01, Math.PI * 2.21, Math.PI * 0.025]}
+			position={[1, 0, 0]}
 		/>
 	)
 }
