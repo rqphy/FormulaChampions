@@ -17,8 +17,7 @@ export default function Formula() {
 		<primitive
 			object={model.scene}
 			scale={0.5}
-			rotation={[Math.PI * 0.5, Math.PI * 2, Math.PI * 0]}
-			// rotation={[Math.PI * 0.01, Math.PI * 2.21, Math.PI * 0.025]}
+			rotation={[Math.PI * 0.5, Math.PI * 2, Math.PI * 0.05]}
 			position={[1, 0, 0]}
 		/>
 	)
